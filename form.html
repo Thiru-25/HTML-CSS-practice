@@ -1,0 +1,195 @@
+<!-- 
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us Extended</title>
+    <style>
+      .container {
+            width: 600px;
+            margin: 30px auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            
+        }
+
+        input, textarea, select {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .row {
+            display: flex;
+            gap: 20px;
+        }
+
+        .row div {
+            width: 100%;
+        }
+
+        textarea {
+            height: 80px;
+            resize: vertical;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 8px 20px;
+            border: 1px solid #888;
+            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+
+        .required {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Contact Us Extended</h2>
+
+    <form>
+
+        <div class="row">
+            <div>
+                <label>First name <span class="required">*</span></label>
+                <input type="text" required>
+            </div>
+
+            <div>
+                <label>Last name <span class="required">*</span></label>
+                <input type="text" required>
+            </div>
+        </div>
+
+        <label>Email <span class="required">*</span></label>
+        <input type="email" required>
+
+        <label>Phone number</label>
+        <input type="tel">
+
+        <label>Address</label>
+        <textarea></textarea>
+
+        <label>City</label>
+        <input type="text">
+
+        <label>State / Province</label>
+        <select>
+            <option>AK</option>
+            <option>CA</option>
+            <option>TX</option>
+            <option>NY</option>
+        </select>
+
+        <label>Country</label>
+        <select>
+            <option>Afghanistan</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+        </select>
+
+        <label>ZIP / Postal Code</label>
+        <input type="text">
+
+        <label>Comments and Questions</label>
+        <textarea></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</div>
+
+</body>
+</html> -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="tittle">Contact Us Extended</h2>
+
+      <div class="row">
+        <div class="First-name">
+          <label>FirstName <span class="required">*</span></label>
+
+          <div><input type="text" /></div>
+        </div>
+        <div class="Last-name">
+          <label>LastName <span class="required">*</span></label>
+          <div><input type="text" /></div>
+        </div>
+      </div>
+      <div class="input_style">
+        <label>Email <span class="required">*</span></label>
+        <div>
+            <input type="text" required>
+        </div>
+      </div>
+      <div class="input_style">
+        <label>Phone Number <span class="required">*</span></label>
+        <div>
+            <input type="text" required>
+        </div>
+        </div>
+      <div class="textarea_style">
+        <label >Address</label>
+         <textarea></textarea>
+      </div>
+      <div class="input_style">
+        <label>City <span class="required">*</span></label>
+        <div>
+            <input type="text" required>
+        </div>
+      
+      </div>
+      <div class="select_style">
+        <label>State</label>
+        <div>
+            <select >
+                <option></option>
+                <option>tamilnadu</option>
+                <option>andra</option>
+                <option>kerala</option>
+            </select>
+        </div>
+      </div>
+      <div class="input_style">
+        <label>Postal code <span class="required">*</span></label>
+        <div>
+            <input type="text" required>
+        </div>
+      
+      </div>
+      <div class="textarea_style">
+        <label >comment</label>
+         <textarea></textarea>
+      </div>
+      <div class="footer-btn">
+        <button>submit</button>
+      </div>
+
+    
+  </body>
+</html>

@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    
+}
+.logo {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.left a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    
+}
+
+
+
+.left {
+    width: 350px;
+}
+
+
+
+.left p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+.right {
+    width: 250px;
+}
+
+button {
+    padding: 9px 28px;
+    cursor: pointer;
+    margin-top: 34px;
+}
+
+
+
